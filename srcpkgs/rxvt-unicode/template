@@ -7,7 +7,7 @@ configure_args="
  --with-terminfo=/usr/share/terminfo --enable-256-color
  --enable-font-styles --enable-xim --enable-keepscrolling
  --enable-selectionscrolling --enable-smart-resize --enable-transparency
- --enable-combining --with-term=rxvt-unicode-256color
+ --enable-combining --with-term=rxvt-unicode-256color --enable-24-bit-color
  $(vopt_if gdk_pixbuf '--enable-pixbuf' '--disable-pixbuf')
  $(vopt_if perl '--enable-perl' '--disable-perl')
  $(vopt_if startup_notification '--enable-startup-notification' '--disable-startup-notification')
